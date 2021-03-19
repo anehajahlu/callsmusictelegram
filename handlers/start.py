@@ -25,6 +25,10 @@ Silahkan Klik Kotak Dibawah Ini, Apabila Kurang Paham Bisa Dibantu Nanti!.""",
                     ),
                     InlineKeyboardButton(
                         "Channel 🔈", url="https://t.me/captionanakmuda"
+                ],
+                [
+                    InlineKeyboardButton(
+                        "Panduanku Buat Bermusik 💕", url="https://telegra.ph/𝓝𝓪𝓶𝓪-𝓐𝓴𝓾-03-19"
                     )
                 ]
             ]
