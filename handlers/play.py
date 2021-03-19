@@ -65,7 +65,7 @@ async def play(_, message: Message):
 
     if message.chat.id in callsmusic.pytgcalls.active_calls:
         position = queues.add(message.chat.id, file_path)
-        await res.edit_text(f"#️⃣ Queued at position {position}.")
+        await res.edit_text(f"#️⃣ Lagu Kamu Akan Diputar Diposisi! {position}.")
     else:
         await res.edit_text("▶️ Sudah Dimulai Beb!")
         callsmusic.pytgcalls.join_group_call(message.chat.id, file_path, 48000, callsmusic.pytgcalls.get_cache_peer())
